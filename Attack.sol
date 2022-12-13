@@ -10,7 +10,7 @@ contract Attack {
      EtherStore public etherStore;
      constructor(address _etherStoreAddress) {
          etherStore = EtherStore(_etherStoreAddress);
-     }
+     } 
 
 //Fallback is called when EtherStore sends Ether to this contract.
 
